@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "websecAssignment1B", "websecAssignment1B\websecAssignment1B.pyproj", "{40173AF5-BF0A-4B59-987D-A97767B1F02D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40173AF5-BF0A-4B59-987D-A97767B1F02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40173AF5-BF0A-4B59-987D-A97767B1F02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C159FBDB-2A93-44A1-88BD-329AFF76F568}
+	EndGlobalSection
+EndGlobal
