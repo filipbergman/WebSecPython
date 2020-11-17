@@ -2,7 +2,6 @@ import sys
 import os
 import hashlib
 
-#Part 2 ------------------------------------------------------------------------------------------------
 print("Assignment 1B2 part 2")
 with open('leaves.txt') as f:
   leaf_list = f.readlines()
@@ -19,7 +18,6 @@ while len(depth_list[i]) > 1:
   for k in range(int(len(depth_list[i]) / 2)):
     left_node = bytearray.fromhex(depth_list[i][k * 2])
     right_node = bytearray.fromhex(depth_list[i][k * 2 + 1])
-    #print(depth_list[i][k * 2], " : ", depth_list[i][k * 2 + 1])
     
     concat_ba = left_node + right_node
 
@@ -28,13 +26,10 @@ while len(depth_list[i]) > 1:
 
   # Check if odd amount of nodes, if true, duplicate the last node and append to list on one lower depth
   if len(depth_list[i]) % 2 != 0:
-    print("ODD: ", len(depth_list[i]))
     node_to_duplicate = depth_list[i][len(depth_list[i]) - 1]
     depth_list[i].append(node_to_duplicate)
     depth_list[i + 1].append(hashlib.sha1(bytearray.fromhex(node_to_duplicate) + bytearray.fromhex(node_to_duplicate)).hexdigest())
   
-  #print("LIST: ", depth_list[i])
-  print("LENGTH: ", len(depth_list[i]), "\n")
   i = i + 1
 
 #print("DEPTH LIST: ", depth_list)

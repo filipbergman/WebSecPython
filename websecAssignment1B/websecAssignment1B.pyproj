@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>40173af5-bf0a-4b59-987d-a97767b1f02d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>websecAssignment1B2P2.py</StartupFile>
+    <StartupFile>websecAssignment1B1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
